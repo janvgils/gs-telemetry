@@ -29,5 +29,5 @@ A gui can be used on multiple operating system, like Windows, Linux, BSD, macOS,
 
 - If you have a Linux based system with a gui present, the only thing you have to do is login to the VM with an ssh connecting and add the option `-X` after the connection is active you can run every gui based program and it will show its output on the system were you started the ssh connection. Here an example where the connection is made and the gui application xeyes is executed.
 
-![alt text](https://github.com/janvgils/gs-telemetry/images/gs-telemetry-xsession.jpg "GS-Telemetry GUI Session")
+<img src="images/gs-telemetry-xsession.jpg" alt="GS-Telemetry X session">
 
