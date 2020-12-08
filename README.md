@@ -27,5 +27,7 @@ The details of the installation including useraccount information can be found i
 This VM comes with no graphical user interface (gui) for the application that do need one, like gnuradio-companion, you need to use another system as gui.\
 A gui can be used on multiple operating system, like Windows, Linux, BSD, macOS, so what do you need for this:
 
-- If you have a Linux based system with a gui present, the only thing you have to do is login to the VM with an ssh connecting and add the option `-X` after the connection is active you can run every gui based program and it will show its output on the system were you started the ssh connection.
+- If you have a Linux based system with a gui present, the only thing you have to do is login to the VM with an ssh connecting and add the option `-X` after the connection is active you can run every gui based program and it will show its output on the system were you started the ssh connection. Here an example where the connection is made and the gui application xeyes is executed.
+
+![alt text](https://github.com/janvgils/gs-telemetry/images/gs-telemetry-xsession.jpg "GS-Telemetry GUI Session")
 
