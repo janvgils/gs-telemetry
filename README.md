@@ -12,7 +12,7 @@ The Virtual machine is created on Virtualbox 6.1 and exported as an `Open Virtua
 
 The details of the installation including useraccount information can be found in the Virtual machines General Description after the ova import.
 
-When importing this OVA on a Virtualbox host there will be a network port NAT enable so one can login to the ssh server that is active on the virtual machine. The port NAT redirects port 2222 on the host system to port 22 on the virtual machine. Here an example to connect to the VM `ssh -l lab -p 2222 localhost`, for other operating systems you maybe need to use another ssh client such as [PuTTY](https://www.putty.org/).
+When importing this OVA on a Virtualbox host there will be a network port NAT enabled so one can login to the ssh server that is active on the virtual machine. The port NAT redirects port 2222 on the host system to port 22 on the virtual machine. Here an example to connect to the VM `ssh -l lab -p 2222 localhost`, for other operating systems you maybe need to use another ssh client such as [PuTTY](https://www.putty.org/).
 
 
 - SatNOGS groundstation: Installed with the help of this Wiki: [https://wiki.satnogs.org/SatNOGS_Client_Ansible](https://wiki.satnogs.org/SatNOGS_Client_Ansible)
@@ -37,4 +37,30 @@ A gui can be used on multiple operating system, like Windows, Linux, BSD, macOS,
 Here an example where the connection is made and the gui application xeyes is executed, just a simple program to test the X connection.
 
 <img src="images/gs-telemetry-xsession.jpg" alt="GS-Telemetry X session">
+
+## Q&A
+
+### How to run the applications:\
+
+Login as the main user, by default this is the user `lab`.\
+
+CLI programs:\
+- satnogs setup: `sudo satnogs-setup`
+- gr-satellites: `gr_satellites --version`
+
+GUI programs (these will need a active gui configuration):\
+
+- GNURadio: `gnuradio-companion`
+- STRF and SATTOOLS: `rfplot -h, skymap -h` etc
+- GQRX: `gqrx`
+
+- AFSK soundmodem: `sm_afsk`
+- HighSpeed soundmodem: `sm_hs`
+- BOBCAT1 soundmodem: `sm_bobcat`
+- GetKISS: `getkiss`
+- Windows explorer: `explorer`
+- GNOME terminal: `terminal`
+
+
+
 
