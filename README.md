@@ -28,10 +28,11 @@ This VM comes with no graphical user interface (gui) for the application that do
 A gui can be used on multiple operating system, like Windows, Linux, BSD, macOS, so what do you need for this:
 
 - If you have a Linux based system with a gui present, the only thing you have to do is login to the VM with an ssh connecting and add the option `-X` after the connection is active you can run every gui based program and it will show its output on the system were you started the ssh connection.
-- For a Windows operating system you need to install a so called X-server, I you [X410](https://x410.dev/) but you also use [VcXsrv](https://sourceforge.net/projects/vcxsrv/). When this is installed and active try the below example to see if everything is working.
+- For a Windows operating system you need to install a so called X-server, I use [X410](https://x410.dev/) but you also use [VcXsrv](https://sourceforge.net/projects/vcxsrv/). When this is installed and active try the below example to see if everything is working.
+- When running macOS you need to install [XQuartz](https://www.xquartz.org/).
 
 
-Here an example where the connection is made and the gui application xeyes is executed.
+Here an example where the connection is made and the gui application xeyes is executed, just a simple program to test the X connection.
 
 <img src="images/gs-telemetry-xsession.jpg" alt="GS-Telemetry X session">
 
