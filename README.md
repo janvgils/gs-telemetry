@@ -4,11 +4,11 @@ Date: 05-12-2020 Version 1.0 (Initial release)\
 Date: 06-12-2020 Version 1.1
 
 
-Debian Buster/amd64 based Virtual Machine with the following software installed satellite groundstation software.
+Debian Buster/amd64 based Virtual Machine with the following software installed to run a satellite groundstation.
 
 The Virtual machine is created on Virtualbox 6.1 and exported as an `Open Virtualization Format 1.0` the virtual disk is in vmdk format so VMware users should also be able to import the ova and run the Virtual Machine in there enviroment (this is not tested, please share your experience).
 
-The details of the installation can be found in the General Description after the ova import.
+The details of the installation including useraccount information can be found in the Virtual machines General Description after the ova import.
 
 
 - SatNOGS groundstation: Installed with the help of this Wiki: `https://wiki.satnogs.org/SatNOGS_Client_Ansible`
