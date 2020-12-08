@@ -1,4 +1,6 @@
-# gs-telemetry
+# GS-telemetry (a Virtual Machine OVA)
+
+### This system was built to support the SPOC cubesat team, but it can also be used by others to get familiar with software that is used by satellite reception enthusiasts.
 
 Date: 05-12-2020 Version 1.0 (Initial release)\
 Date: 06-12-2020 Version 1.1
@@ -19,4 +21,11 @@ The details of the installation including useraccount information can be found i
 - GQRX: Installed as a debian package `ii  gqrx-sdr 2.11.5-1+b2 amd64 Software defined radio receiver`
 - SoundModem: It is possible with the help if wine32 to run the soundmodem software from UZ7HO [http://uz7.ho.ua/packetradio.htm](http://uz7.ho.ua/packetradio.htm)
 - GetKISS+: It is possible with the help if wine32 to run the GetKISS+ software from DK3WN [https://www.satblog.info/software/](https://www.satblog.info/software/)
+
+### Some basics on how to work with the VM
+
+This VM comes with no graphical user interface (gui) for the application that do need one, like gnuradio-companion, you need to use another system as gui.\
+A gui can be used on multiple operating system, like Windows, Linux, BSD, macOS, so what do you need for this:
+
+- If you have a Linux based system with a gui present, the only thing you have to do is login to the VM with an ssh connecting and add the option `-X` after the connection is active you can run every gui based program and it will show its output on the system were you started the ssh connection.
 
