@@ -40,15 +40,15 @@ Here an example where the connection is made and the gui application xeyes is ex
 
 ## Q&A
 
-### How to run the applications:\
+### How to run the applications:
 
-Login as the main user, by default this is the user `lab`.\
+Login as the main user, by default this is the user `lab`.
 
 CLI programs:\
 - satnogs setup: `sudo satnogs-setup`
 - gr-satellites: `gr_satellites --version`
 
-GUI programs (these will need a active gui configuration):\
+GUI programs (these will need a active gui configuration):
 
 - GNURadio: `gnuradio-companion`
 - STRF and SATTOOLS: `rfplot -h, skymap -h` etc
