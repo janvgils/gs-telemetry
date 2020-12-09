@@ -24,6 +24,8 @@ When importing this OVA on a Virtualbox host there will be a network port NAT en
 - SoundModem: It is possible with the help if wine32 to run the soundmodem software from UZ7HO [http://uz7.ho.ua/packetradio.htm](http://uz7.ho.ua/packetradio.htm)
 - GetKISS+: It is possible with the help if wine32 to run the GetKISS+ software from DK3WN [https://www.satblog.info/software/](https://www.satblog.info/software/)
 
+<img src="images/gs-telemetry-information.jpg" alt="GS-Telemetry Software">
+
 ### Some basics on how to work with the VM
 
 This VM comes with no graphical user interface (gui) for the application that do need one, like gnuradio-companion, you need to use another system as gui.\
