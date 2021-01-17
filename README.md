@@ -4,6 +4,7 @@
 
 Date: 05-12-2020 Version 1.0 (Initial release)\
 Date: 06-12-2020 Version 1.1
+Date: 15-01-2021 Version 1.2
 
 
 Debian Buster/amd64 based Virtual Machine with the following software installed to run a satellite groundstation.
