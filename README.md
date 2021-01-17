@@ -3,7 +3,7 @@
 ### This system/toolbox was built to support the SPOC cubesat team, but it can also be used by others to get familiar with software that is used by satellite reception enthusiasts.
 
 Date: 05-12-2020 Version 1.0 (Initial release)\
-Date: 06-12-2020 Version 1.1
+Date: 06-12-2020 Version 1.1\
 Date: 15-01-2021 Version 1.2
 
 
