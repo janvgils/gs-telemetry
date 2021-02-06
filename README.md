@@ -2,12 +2,6 @@
 
 ### This system/toolbox was built to support the SPOC cubesat team, but it can also be used by others to get familiar with software that is used by satellite reception enthusiasts.
 
-Date: 05-12-2020 Version 1.0 (Initial release)\
-Date: 06-12-2020 Version 1.1\
-Date: 15-01-2021 Version 1.2\
-Date: 06-02-2021 Version 1.3
-
-
 Debian Buster/amd64 based Virtual Machine with the following software installed to run a satellite groundstation.
 
 The Virtual machine is created on Virtualbox 6.1 and exported as an `Open Virtualization Format 1.0` the virtual disk is in vmdk format so VMware users should also be able to import the ova and run the Virtual Machine in there enviroment (this is not tested, please share your experience).
@@ -66,5 +60,5 @@ GUI programs (these will need a active gui configuration):
 - GNOME terminal: `terminal`
 
 
-
+All changes can be found in [CHANGELOG.md](CHANGELOG.md)
 
