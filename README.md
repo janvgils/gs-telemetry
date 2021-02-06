@@ -2,7 +2,7 @@
 
 ### This system/toolbox was built to support the SPOC cubesat team, but it can also be used by others to get familiar with software that is used by satellite reception enthusiasts.
 
-Debian Buster/amd64 based Virtual Machine with the following software installed to run a satellite groundstation.
+This system is a Debian Buster/amd64 based Virtual Machine with the following software installed, to run as a satellite telemetry reception groundstation.
 
 The Virtual machine is created on Virtualbox 6.1 and exported as an `Open Virtualization Format 1.0` the virtual disk is in vmdk format so VMware users should also be able to import the ova and run the Virtual Machine in there enviroment (this is not tested, please share your experience).
 
