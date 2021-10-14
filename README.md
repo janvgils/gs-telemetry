@@ -2,16 +2,16 @@
 
 ### This system/toolbox was built to support the SPOC cubesat team, but it can also be used by others to get familiar with software that is used by satellite reception enthusiasts.
 
-This system is a Debian Buster/amd64 based Virtual Machine with the following software installed, to run as a satellite telemetry reception groundstation.
+This system is a Debian Buster/amd64 based Virtual Machine with the following software installed, to run as a satellite telemetry reception ground station.
 
-The Virtual machine is created on Virtualbox 6.1 and exported as an `Open Virtualization Format 1.0` the virtual disk is in vmdk format so VMware users should also be able to import the ova and run the Virtual Machine in there enviroment (this is not tested, please share your experience).
+The Virtual machine is created on Virtualbox 6.1 and exported as an `Open Virtualization Format 1.0` the virtual disk is in vmdk format so VMware users should also be able to import the ova and run the Virtual Machine in there environment (this is not tested, please share your experience).
 
-The details of the installation including useraccount information can be found in the Virtual machines General Description after the ova import.
+The details of the installation including user account information can be found in the Virtual machines General Description after the ova import.
 
 When importing this OVA on a Virtualbox host there will be a network port NAT enabled so one can login to the ssh server that is active on the virtual machine. The port NAT redirects port 2222 on the host system to port 22 on the virtual machine. Here an example to connect to the VM `ssh -l lab -p 2222 localhost`, for other operating systems you maybe need to use another ssh client such as [PuTTY](https://www.putty.org/).
 
 
-- SatNOGS groundstation: Installed with the help of this Wiki: [https://wiki.satnogs.org/SatNOGS_Client_Ansible](https://wiki.satnogs.org/SatNOGS_Client_Ansible)
+- SatNOGS ground station: Installed with the help of this Wiki: [https://wiki.satnogs.org/SatNOGS_Client_Ansible](https://wiki.satnogs.org/SatNOGS_Client_Ansible)
 - GNURadio 3.8.2: This is part of the satnogs repository that is enabled by the `ansible install`
 - GR-Satellites: Installed with the help of the following documentation: [https://gr-satellites.readthedocs.io/](https://gr-satellites.readthedocs.io/)
 - strf: Installed with the information on [https://github.com/cbassa/strf](https://github.com/cbassa/strf)
@@ -61,4 +61,3 @@ GUI programs (these will need a active gui configuration):
 
 
 All changes can be found in [CHANGELOG.md](CHANGELOG.md)
-
