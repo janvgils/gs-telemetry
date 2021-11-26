@@ -104,6 +104,8 @@ This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 ```
 
+When this is successful and you are still in the build directory (make sure, dangerous!) you can remove the left overs `rm -rf *` 
+
 ### That is all for now.
 
 
