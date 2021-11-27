@@ -11,7 +11,7 @@ alias os-clean='sudo apt-get clean'
 alias os-purge='sudo apt-get --purge autoremove'
 alias os-update='sudo apt-get update && sudo apt-get upgrade'
 ```
-So lets start after you have logged in as the lab user with `os-update` command, this will request your password because the alias is using `sudo`. This command will for example give you the following output.
+So lets start after you have logged in as the lab user with the `os-update` command, this will request your password because the alias is using `sudo`. This command will update the package information and propose the update packages, and will show you the following output.
 
 ```
 Calculating upgrade... Done
@@ -38,7 +38,7 @@ Just hit `Y` and the update will start, as you can see there are also some packa
 
 So now the first run is done we will manually do the `kept back` packages.
 
-Is this example the command is `sudo apt-get install linux-headers-amd64 linux-image-amd64`
+In this example the command is `sudo apt-get install linux-headers-amd64 linux-image-amd64`
 
 ```
 Reading package lists... Done
