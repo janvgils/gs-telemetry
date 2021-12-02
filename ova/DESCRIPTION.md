@@ -1,6 +1,9 @@
 
-<pre>Debian amd64 Buster installation.
+## OVA installation description
 
+The installation is based upon Debian amd64 Buster installation.
+
+```
 Language: English US
 Location: Netherlands
 Locales: United States: en_US.UTF-8
@@ -22,4 +25,5 @@ All files in one single partition
 partition #1 primary 14.4GB f ext4 /
 partition #5 logical 2.0 GB f swap
 
-VirtualBox Guest Addition installed</pre>
+VirtualBox Guest Addition installed
+```
