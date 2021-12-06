@@ -29,7 +29,8 @@ VirtualBox Guest Addition installed
 
 Network configuration:
 
-The VM is using the NAT VirtualBox interface and has a ssh port forward. When you want to connect the VM ssh port you use the following command:
+The VM is using the NAT VirtualBox interface and has a ssh port forward.
+When you want to connect the VM ssh port you use the following command:
 
 ```
 
