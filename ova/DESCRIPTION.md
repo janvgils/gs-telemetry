@@ -26,4 +26,11 @@ partition #1 primary 14.4GB f ext4 /
 partition #5 logical 2.0 GB f swap
 
 VirtualBox Guest Addition installed
+
+Network configuration:
+
+The VM is using the NAT VirtualBox interface and has a ssh port forward. When you want to connect the VM ssh port you use the following command:
+
 ```
+
+`ssh -l lab -p 2222 <VirtualBox host ip address>`
