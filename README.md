@@ -8,7 +8,7 @@ The Virtual machine is created on Virtualbox 6.1 and exported as an `Open Virtua
 
 The details of the installation including user account information can be found in the Virtual machines General Description after the ova import.
 
-When importing this OVA on a Virtualbox host there will be a network port NAT enabled so one can login to the ssh server that is active on the virtual machine. The port NAT redirects port 2222 on the host system to port 22 on the virtual machine. Here an example to connect to the VM `ssh -l lab -p 2222 localhost`, for other operating systems you maybe need to use another ssh client such as [PuTTY](https://www.putty.org/).
+When importing this OVA on a Virtualbox host there will be a network port NAT enabled so one can login to the ssh server that is active on the virtual machine. The port NAT redirects port 2222 on the host system to port 22 on the virtual machine. Here an example to connect to the VM `ssh -l lab -p 2222 <VirtualBox host ip>`, for other operating systems you maybe need to use another ssh client such as [PuTTY](https://www.putty.org/).
 
 
 - SatNOGS ground station: Installed with the help of this Wiki: [https://wiki.satnogs.org/SatNOGS_Client_Ansible](https://wiki.satnogs.org/SatNOGS_Client_Ansible)
