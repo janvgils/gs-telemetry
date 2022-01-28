@@ -4,7 +4,7 @@
 
 This system is a Debian Buster/amd64 based Virtual Machine with the following software installed, to run as a satellite telemetry reception ground station.
 
-The Virtual machine is created on Virtualbox 6.1 and exported as an `Open Virtualization Format 1.0` the virtual disk is in vmdk format so VMware users should also be able to import the ova and run the Virtual Machine in there environment (this is not tested, please share your experience).
+The Virtual machine is created on Virtualbox 6.1 and exported as an `Open Virtualization Format 1.0` the virtual disk is in vmdk format so VMware users should also be able to import the ova and run the Virtual Machine in there environment (this is not tested, please share your experience). The VM also expects that the VirtualBox Extension Pack is installed, this is providing support for USB 2.0 and higher.
 
 The details of the installation including user account information can be found in the Virtual machines General Description after the ova import.
 
