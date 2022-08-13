@@ -42,7 +42,7 @@ Here an example where the connection is made and the gui application xeyes is ex
 
 Login as the main user, by default this is the user `lab`.
 
-CLI programs:\
+CLI programs:
 - satnogs setup: `sudo satnogs-setup`
 - gr-satellites: `gr_satellites --version`
 
